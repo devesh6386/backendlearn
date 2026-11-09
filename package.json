@@ -1,0 +1,25 @@
+{
+  "name": "deploym",
+  "version": "1.0.0",
+  "description": "a app shows how to deploy",
+  "keywords": [
+    "node",
+    "back"
+  ],
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
